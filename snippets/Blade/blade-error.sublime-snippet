@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+@error${2:('${1:name}')}
+	${3:{{ \$message }\}}
+@enderror$0
+]]></content>
+	<tabTrigger>err</tabTrigger>
+	<scope>text.blade</scope>
+</snippet>
